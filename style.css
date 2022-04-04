@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box {
+    width: 700px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img {
+    border-radius: 150%;
+}
+
+.box h1, p {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20 px;
+}
+
+.box p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 30px 0 20 px;
+}
+
+.box ul li {
+    display: block;
+}
+
+.box ul li a {
+    color: black;
+    font-size: 50px;
+    padding: 10px 5px;
+    }
+
+    .box ul li a:hover {
+        color: black
+    }
